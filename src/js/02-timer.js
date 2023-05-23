@@ -1,4 +1,5 @@
-import flatpickr from '../../node_modules/flatpickr';
+import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.min.css';
 import '../../node_modules/flatpickr/dist/themes/material_orange.css';
 
 const displayDays = document.querySelector('[data-days]');
